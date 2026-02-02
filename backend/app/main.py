@@ -14,6 +14,7 @@ app = FastAPI(title="HRMS Lite API")
 origins = [
     "http://localhost:3000",
     "http://localhost:5173",
+    "hrms-lite-swart.vercel.app"
     # add your Vercel URL later
 ]
 
